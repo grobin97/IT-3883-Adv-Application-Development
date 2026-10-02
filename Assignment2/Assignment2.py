@@ -9,7 +9,7 @@
 
 results = [] # List will be used to store the name and averages
 
-with open("Adv_Application_Dev/Assignment2input.txt") as file: # Opens the input file
+with open("Assignment2/Assignment2input.txt") as file: # Opens the input file
 
     for line in file: # Loops through each line in the input file
         part = line.split() # Creates a list of each piece of data seperated by a space
